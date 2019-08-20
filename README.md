@@ -16,7 +16,8 @@ $ docker run -d --runtime=nvidia --name=tensorrt -v $(pwd)/openpose-engine:/work
 
 ## 2. Download models
 ```bash
-$ ./models/getModels.sh
+$ cd models
+$ ./getModels.sh
 ```
 
 ## 3. Build & Run
